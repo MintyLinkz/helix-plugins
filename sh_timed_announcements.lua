@@ -108,7 +108,7 @@ if CLIENT then
         local frame = vgui.Create("DFrame")
         frame:SetSize(500, 500)
         frame:Center()
-        frame:SetTitle("CHANGEME - Announcements") -- Edior Title, change to whatever you want
+        frame:SetTitle("CHANGEME - Announcements") -- Editor Title, change to whatever you want
         frame:MakePopup()
         ix.announcementMenu = frame
 
